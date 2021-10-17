@@ -1,0 +1,139 @@
+*
+{
+    font-family: Arial;
+    text-decoration: none;
+    margin: 0;
+    font-family: Roboto;
+}
+.home
+{
+    
+    color: #FDBA3D;
+    font-weight: bold;
+}
+.menu
+{
+    display: flex;
+    justify-content: right;
+    background-color: #193350;
+    
+}
+.menu a
+{   
+    
+    font-weight: bold;
+    padding: 10px 50px;
+}
+.pesan, .markah, .profil
+{
+    color: #FFF;
+}
+
+.menu-main
+{
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+
+
+.jual-beli i , .komunitas i, .turtorial i
+{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #FDBA3D;
+    background-color: #193350;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.jual-beli, .komunitas, .turtorial
+{
+    padding: 50px 50px;
+}
+.jual-beli p, .komunitas p, .turtorial p
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+
+.rekomendasi h4{
+    margin: 10px 20px;
+}
+
+.rekomendbengkel
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+
+.daftarrekomend
+{
+    
+    display: grid;
+    grid-template-areas: 
+    "i i i i i"
+    "text text text text text"
+    "a a a a a";
+    background-color: wite;
+    margin: 10px 25px;
+    display: inline;
+    justify-content: center;
+    box-shadow: 0 2px 6px gray;
+}
+
+.daftarrekomend img
+{
+    grid-area: i;
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px;
+    object-fit: cover;
+   
+    
+}
+.judulrekomend
+{
+    grid-area: text;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+.daerahrekomend
+{
+    grid-area: a;
+    font-size: 13px;
+    margin: 5px 5px;
+    margin-bottom: 10px;
+    display: flex;
+    color: #193350;
+}
+.bengkelfav img
+{
+    width: 200px;
+    height: auto;
+    
+}
+.bengkelfav
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+}
+
+footer
+{
+    background-color: #193350;
+    padding: 70px 0px;
+}
+ footer h2
+ {
+     display: flex;
+     justify-content: center;
+     color: #FFF;
+     font-size: 50px;
+ }

@@ -1,0 +1,143 @@
+*
+{
+    font-family: Arial;
+    text-decoration: none;
+    margin: 0;
+    font-family: Roboto;
+    
+}
+
+.profil
+{
+    
+    color: #FDBA3D;
+    font-weight: bold;
+}
+.menu
+{
+    display: flex;
+    justify-content: right;
+    background-color: #193350;
+    
+}
+.menu a
+{   
+    
+    font-weight: bold;
+    padding: 10px 50px;
+}
+.pesan, .markah, .home
+{
+    color: #FFF;
+}
+
+.menu-main
+{
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+
+.login
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #193350;
+	padding: 10px 15px;
+	color: #FDBA3D;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+footer
+{
+    background-color: #193350;
+    padding: 20px 0px;
+}
+ footer h2
+ {
+     display: flex;
+     justify-content: center;
+     color: #FFF;
+     font-size: 50px;
+ }
+
+ /* signup */
+.backlogin i
+{
+    padding-left: 200px;
+    margin-top: 50px;
+    color: #193350;
+    font-size: 50px;
+    margin-bottom: -300px;
+}

@@ -1,0 +1,92 @@
+*
+{
+    font-family: Arial;
+    text-decoration: none;
+    margin: 0;
+    font-family: Roboto;
+    
+}
+
+.profil
+{
+    
+    color: #FDBA3D;
+    font-weight: bold;
+}
+.menu
+{
+    display: flex;
+    justify-content: right;
+    background-color: #193350;
+    
+}
+.menu a
+{   
+    
+    font-weight: bold;
+    padding: 10px 50px;
+}
+.pesan, .markah, .home
+{
+    color: #FFF;
+}
+
+.menu-main
+{
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+main
+{
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.profile i
+{
+    
+    font-size: 100px;
+    color: #193350;
+    margin-right: 30px;
+}
+.profile 
+{
+    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+.datadiri
+{
+    padding: 20px 20px;
+}
+.judul
+{
+    font-size: 20px;
+}
+.logout
+{
+
+    display: flex;
+    justify-content: center;
+}
+.logout a
+{
+    
+    color: #FDBA3D;
+    background-color: #193350;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+footer
+{
+    background-color: #193350;
+    padding: 20px 0px;
+}
+footer h2
+{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 50px;
+}

@@ -1,0 +1,59 @@
+*
+{
+    font-family: Arial;
+    text-decoration: none;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.pesan
+{
+    
+    color: #FDBA3D;
+    font-weight: bold;
+}
+.menu
+{
+    display: flex;
+    justify-content: right;
+    background-color: #193350;
+    
+}
+.menu a
+{   
+    
+    font-weight: bold;
+    padding: 10px 50px;
+}
+.home, .markah, .profil
+{
+    color: #FFF;
+}
+
+.logindulu
+{
+    padding: 200px 0px;
+    display: flex;
+    justify-content: center;
+}
+.logindulu a
+{
+    
+    color: #FDBA3D;
+    background-color: #193350;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+footer
+{
+    background-color: #193350;
+    padding: 70px 0px;
+}
+ footer h2
+ {
+     display: flex;
+     justify-content: center;
+     color: #FFF;
+     font-size: 50px;
+ }
